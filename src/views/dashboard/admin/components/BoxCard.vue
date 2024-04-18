@@ -100,8 +100,8 @@ export default {
     border: 5px solid #ffffff;
     background-color: #fff;
     margin: auto;
-    box-shadow: none!important;
-    /deep/ .pan-info {
+    box-shadow: none !important;
+    ::v-deep .pan-info {
       box-shadow: none!important;
     }
   }

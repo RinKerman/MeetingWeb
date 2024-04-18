@@ -791,8 +791,10 @@ const TYPE_COMMAND_KICK = 'KICK'
 
 const iceServers = {
   'iceServers': [
-    { url: 'stun:stun.ekiga.net' },
-    { url: 'stun:stun.ideasip.com' }
+    { url: 'stun:47.120.72.139:3478',
+      username: 'root',
+      password: '123456'
+    }
   ]
 }
 const offerOptions = {
